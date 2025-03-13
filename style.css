@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: min(100% - 40px, 1340px);
+    margin-inline: auto;
+}
+
+.father-block{
+    border: 3px solid;
+    display: inline-block;
+    width: 180px;
+    height: 150px;
+    margin: 15px;
+  }
+
+  .green{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    float: left;
+  }
+  
+
+  .black{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    clear: left;
+  }
+
+
+  .white{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+  }
+
+
+  .brown{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    float: right;
+  }
+
+
+
+/* 2 */
+
+.father-block2{
+  display: inline-block;
+  position: absolute;
+  border: 3px solid;
+  width: 500px;
+  height: 150px;
+  background-color: gray;
+  margin: 15px;
+  margin-left: -10px;
+}
+
+.ffp{
+  margin: 20px;
+  background-color: yellow;
+  border: 2px solid;
+  width: 100px;
+  height: 100px;
+}
+
+.son-off-ffp{
+  width: 50%;
+  height: 50%;
+  border: 3px dashed aqua;
+  background-color: rgb(0, 81, 255);
+}
+
+.son-off-ffp2{
+  width: 50%;
+  height: 50%;
+  border: 3px solid;
+  background-color: rgb(255, 0, 0);
+}
+
+.ffp1{
+  margin: 20px;
+  background-color: blueviolet;
+  border: 2px solid;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/* mini webchik */
+.ffp2{
+  position: absolute;
+  margin: 20px;
+  background-color: aqua;
+  border: 2px solid;
+  width: 400px;
+  height: 200px;
+}
+
+
+.navigate{
+  margin: 15px;
+  display: inline-block;
+  width: 360px;
+  height:30px;
+  border: 3px solid;
+  background-color: aquamarine;
+}
+
+.site-corobka{
+  display: block;
+  width: 360px;
+  margin: 15px;
+  margin-top: -10px;
+  height: 130px;
+  border: 3px solid;
+  background-color: aquamarine;
+}
+
+
+
+.content-box1{
+  width: 20%;
+  height: 50%;
+  margin: 15px;
+  border: 3px solid;
+  background-color: azure;
+  float: left;
+}
+
+.content-box2{
+  width: 20%;
+  height: 50%;
+  border: 3px solid;
+  background-color: azure;
+  margin: 15px;
+  float: inline-start;
+}
+
+.content-box3{
+  width: 20%;
+  height: 50%;
+  border: 3px solid;
+  background-color: azure;
+  margin: 15px;
+  float: inline-start;
+}
+
+/* ffpwfp */
+
+.father-block3{
+  display: block;
+  border: 3px solid;
+  width: 180px;
+  height: 150px;
+  margin: 15px;
+  position: relative;
+}
+
+.son-block1{
+background-color: gold;
+width: 50%;
+height: 50%;
+float: left;
+}
+
+.son-block2{
+  border: 3px;
+  background-color: mediumvioletred;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.son-block3{
+  background-color: lightskyblue;
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+
+.mother-block1{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  float: right;
+}
+
+.grandpa-block1{
+  width: 50%;
+  height: 50%;
+  background-color: blanchedalmond;
+  float: right;
+}
+
+.son-block4{
+  background-color: lime;
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+
+.sister-block1{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+}
+
+.grandma-block1{
+  width: 50%;
+  height: 50%;
+  background-color: blanchedalmond;
+}
+
+.menu{
+  display: inline-block;
+  width: 180px;
+  height: 300px;
+  border: 3px solid;
+  margin: 15px;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.pages{
+  display: inline-block;
+  border: 3px solid;
+  padding: 10px;
+  background-color: cornsilk;
+}
+
+.inline{
+  border: 3px solid;
+  padding: 4px;
+  background-color: crimson;
+}
+
+.a1{
+  display: block;
+  border: 2px solid;
+  background-color: antiquewhite;
+}
